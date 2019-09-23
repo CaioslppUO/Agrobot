@@ -4,3 +4,5 @@ This section is about the main board pinout:
    
    * You need to pay attention to the pins used to flash the board, as the 
      boards have these pins in different positions.
+   
+   * The pins used on the sensors, both right and left are the same on the boards.
