@@ -33,6 +33,7 @@ Tutorial:
    *4 - Donwload the application to use it on your smartphone(Only tested on Android).
    
       * Follow instructions under src/AppControl/ .
+      * Also, you can edit the python3 script used to control the robot, and change the way to send commads.
       
    *5 - Setup all the circuits needed to make it work.
    
