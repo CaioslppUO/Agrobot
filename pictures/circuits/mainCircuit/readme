@@ -1,0 +1,3 @@
+This section is about the mainCircuit:
+
+   * be careful not to use the main board 15v wire, it can burn both arduino and raspberry.
