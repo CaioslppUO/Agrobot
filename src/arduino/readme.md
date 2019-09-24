@@ -4,6 +4,9 @@
   
 # Protocol to send uart to the arduino:
 
+ * You need to send to arduino via UART(RX,TX pins), the three variables in the order: speed;steer;limit.
+ * If using python3, you can send it through serial libs from raspberry to arduino.
+
  * There are three varaibles that control the mainBoard(hoverBoard):
      * Speed.
      * Steer.
