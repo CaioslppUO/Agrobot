@@ -1,5 +1,7 @@
 # This is the wheel form hoverBoard:
 
+![wheel](https://github.com/CaioslppUO/Agrobot/blob/master/pictures/circuits/whells/whell.jpeg)
+
  * There should be two of them, but you can use only one if wish.
  
  * Just connect them to the mainBoard by:
