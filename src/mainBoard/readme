@@ -1,3 +1,5 @@
+### Files To unlock flash and flash the mainBoard for use the hoverboard hardware and control the motors ###
+
 #### Commands to unlock flash and flash the mainBoard ###
 READ THIS:
 To unlock or flash the MainBoard you need to install the St-Link v2  and libusb in you linux machine. 
