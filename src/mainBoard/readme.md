@@ -32,7 +32,7 @@
  * To configure the input of the MainBoard you need to modify the inc/config.h.
    Just comments the current input (CONTROL_NUNCHUCK) and uncomment the input that you want.
 
-   *Example: 
+   * Example: 
      * if you want the UART input, you need to uncomment the following line:
        //#define CONTROL_SERIAL_USART2       // left sensor board cable, disable if ADC or PPM is used!
      * and comment the follwing line:
