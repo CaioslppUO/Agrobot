@@ -1,7 +1,9 @@
-### Arduino code for control the agrobot ###
+# Arduino code for control the agrobot:
+
   *This code allows arduino to receive information (Uart Communication) and transmit to Hover MainBoard (I2C Communication)
   
-## Protocol for send uart to the arduino ###
+# Protocol for send uart to the arduino:
+
  *Are three varaible that control the mainBoard(hoverBoard):
      -> Speed
      -> Steer
@@ -19,9 +21,9 @@
      
    *Limit is a speed coefficient
  
- ### Receiving values via Uart ###
- The procotol implemented is:
- ABCD;ABCD;ABCD;
+ # Receiving values via Uart:
+  
+  *The procotol implemented is: ABCD;ABCD;ABCD;
  
   *ABCD are numbers:
     -> the number A is the signal, if its 1 the singnal is +, else its 0 the signal is -
