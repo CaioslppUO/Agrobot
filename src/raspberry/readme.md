@@ -1,4 +1,4 @@
-This section is about raspberry and its control over arduinos:
+# This section is about raspberry and its control over arduinos:
 
   * It has a file called control.py, there is the code that receives commands from the web server, makes the necessary 
     corrections and sends them to the arduino using UART.
