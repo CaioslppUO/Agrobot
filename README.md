@@ -30,7 +30,7 @@
    * 3 - Download and setup the code into raspberry pi 3 B+ (Already need to have linux. We are using Linux Mate on it
         , if you want, you can download it here: https://ubuntu-mate.org/download/).
         
-        *Follow instructions under src/raspberry/.
+        * Follow instructions under src/raspberry/.
         
    * 4 - Donwload the application to use it on your smartphone(Only tested on Android).
    
