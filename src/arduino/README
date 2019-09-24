@@ -1,0 +1,2 @@
+### Arduino code for control the agrobot ###
+  *This code allows arduino to receive information (Uart Communication) and transmit to Hover MainBoard (I2C Communication)
