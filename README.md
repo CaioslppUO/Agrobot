@@ -34,6 +34,7 @@
    
       * Follow instructions under src/AppControl/ .
       * Also, you can edit the python3 script used to control the robot, and change the way to send commads.
+      * If you have a nunchuck controller, you can use it to control the robot too.
       
    *5 - Setup all the circuits needed to make it work.
    
