@@ -36,3 +36,7 @@ Tutorial:
    *6 - Turn arduino and raspberry on, sync raspberry and the smartphone application by typing the ip of raspberry pi in it.
    
    *7 - Control the robot.
+   
+   REFERENCES:
+    On the part of hacking the main board and submitting the codes for it, 
+    we rely on this github: https://github.com/NiklasFauth/hoverboard-firmware-hack.
