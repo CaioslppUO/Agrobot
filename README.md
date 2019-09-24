@@ -3,7 +3,7 @@
   
 ![robo](https://github.com/CaioslppUO/Agrobot/blob/master/pictures/robot/robo1.jpg)
 
-Material needed to do:
+# Material needed to do:
    
    Here we put a list to assemble the circuit in the simplest way, 
      with only 2 wheels and a main board(it also can be done with only 1 wheel):
@@ -15,7 +15,7 @@ Material needed to do:
      * 2 Or 1 wheel(s), depending on what you want.
      * A couple of wires to connect the circuit.
 
-Tutorial:
+# Tutorial:
    
    *1 - Setup the main Hover Board.
    
@@ -43,7 +43,7 @@ Tutorial:
    
    *7 - Control the robot.
    
-   REFERENCES:
+   # REFERENCES:
    
     On the part of hacking the main board and submitting the codes for it, 
     we rely on this github: https://github.com/NiklasFauth/hoverboard-firmware-hack.
