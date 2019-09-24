@@ -6,7 +6,14 @@
 
 Material needed to do:
    Here we put a list to assemble the circuit in the simplest way, 
-     with only 2 wheels and a main board(it also can be done with only 1 wheel).
+     with only 2 wheels and a main board(it also can be done with only 1 wheel):
+     
+     * 1 raspberry pi 3 model B+ (With linux installed)
+     * 1 arduino(We have tested with nano and uno r3.You need 1 arduino to each mainBoard, if want to have more than 1 in
+        the project).
+     * 1 mainBoard, removed from a hoverBoard.
+     * 2 Or 1 wheel(s), depending on what you want.
+     * A couple wires to connect the circuit.
 
 Tutorial:
    
