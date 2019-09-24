@@ -4,6 +4,10 @@
   
 ![robo](https://github.com/CaioslppUO/Agrobot/blob/master/pictures/robot/robo1.jpg)
 
+Material needed to do:
+   Here we put a list to assemble the circuit in the simplest way, 
+     with only 2 wheels and a main board(it also can be done with only 1 wheel).
+
 Tutorial:
    
    *1 - Setup the main Hover Board.
