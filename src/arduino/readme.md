@@ -28,7 +28,5 @@
   * ABCD are numbers:
     * the number A is the signal, if its 1 the singnal is +, else its 0 the signal is -
     * BCD are the numbers who define the speed, steer and limit values, from 0 to 100
-    * Examples:
-         send 80 in speed and turn full right, without limit:
-          1080;1100;1100;
-  
+    * Example:
+         To send 80 in speed and turn full right, without limit on 100% of power: 1080;1100;1100;
