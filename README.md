@@ -12,6 +12,7 @@
      * 1 memory card for the raspberry.
      * 1 arduino(We have tested with nano and uno r3.You need 1 arduino to each mainBoard, 
        if want to have more than 1 in the project).
+     * 1 ft232r USB -> UART, for each arduino you are using.
      * 1 mainBoard, removed from a hoverBoard.
      * 2 Or 1 wheel(s), depending on what you want.
      * A couple of wires to connect the circuit.
