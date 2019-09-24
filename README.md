@@ -43,7 +43,7 @@
    
    *7 - Control the robot.
    
-   # REFERENCES:
+   # References:
    
     On the part of hacking the main board and submitting the codes for it, 
     we rely on this github: https://github.com/NiklasFauth/hoverboard-firmware-hack.
