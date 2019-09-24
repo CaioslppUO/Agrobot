@@ -6,7 +6,7 @@
 
  * You need to send to arduino via UART(RX,TX pins), the three variables in the order: speed;steer;limit.
  * If using python3, you can send it through serial libs from raspberry to arduino.
-   * Our code under src/raspberry/.
+   * Our code under src/raspberry/ use it.
 
  * There are three varaibles that control the mainBoard(hoverBoard):
      * Speed.
