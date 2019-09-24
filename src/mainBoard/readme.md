@@ -34,6 +34,9 @@
 
    * Example: 
      * if you want the UART input, you need to uncomment the following line:
+     
        //#define CONTROL_SERIAL_USART2       // left sensor board cable, disable if ADC or PPM is used!
+       
      * and comment the follwing line:
+     
        #define CONTROL_NUNCHUCK            // use nunchuck as input. disable DEBUG_SERIAL_USART3!
