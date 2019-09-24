@@ -1,4 +1,8 @@
-Commands to unlock flash and flash the mainBoard
+#### Commands to unlock flash and flash the mainBoard ###
+READ THIS:
+To unlock or flash the MainBoard you need to install the St-Link v2  and libusb in you linux machine. 
+If you are in a windows machine use the Windows ST-Link utility). Open the terminal in the mainboard code folder (in this 
+project it's located here: https://github.com/CaioslppUO/Agrobot/tree/master/src/mainBoard) and use the following commands:
 
 A) If you never flashed the mainboard before use this to unlock the flash:
 
