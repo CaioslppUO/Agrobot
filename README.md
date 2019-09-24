@@ -14,7 +14,7 @@ Material needed to do:
        if want to have more than 1 in the project).
      * 1 mainBoard, removed from a hoverBoard.
      * 2 Or 1 wheel(s), depending on what you want.
-     * A couple wires to connect the circuit.
+     * A couple of wires to connect the circuit.
 
 Tutorial:
    
