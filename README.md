@@ -40,7 +40,8 @@
       
    *5 - Setup all the circuits needed to make it work.
    
-      * Follow instructions under pictures/circuits/mainBoard and pictures/circuits/mainCircuit.
+      * Follow instructions under pictures/circuits/mainBoard , pictures/circuits/mainCircuit and
+        pictures/circuits/whells/.
 
    *6 - Turn arduino and raspberry on, sync raspberry and the smartphone application by typing the ip of raspberry pi in it.
    
