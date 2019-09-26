@@ -11,7 +11,7 @@ int Speed,Steer,Limit;
 String information="";
 bool stringComplete;
 
-//Vector send by I2C
+//Vector send through I2C
 uint8_t vector[6] = {218, 130, 0, 1, 0, 1};
 
 void setup(){
