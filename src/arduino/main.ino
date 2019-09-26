@@ -1,7 +1,10 @@
 #include <Wire.h>
 #include <math.h>
 
-//Standard x and y
+/*Standard x and y
+ * These are the values that keep the robot stationary
+ * They range from 30 to 230
+*/
 #define STD_X 130
 #define STD_Y 123
 
