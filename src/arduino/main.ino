@@ -3,7 +3,7 @@
 
 /*Standard x and y
  * These are the values that keep the robot stationary
- * They range from 30 to 230, where 30 is go back and 230 is go ahead
+ * They range from 30 to 230, where 30 is go Back and 230 is go Ahead for y. For x, 30 is go Left and 230 is go Right
 */
 #define STD_X 130
 #define STD_Y 123
