@@ -69,7 +69,7 @@ void readUart() {
     Serial.print(information);
     Serial.println("}");
     temp="";
-    sinal = information[0] - 48;
+    sinal = information[0] - 48; //1 if sinal = '1' and 0 if sinal = '0'
     temp += information[1];
     temp += information[2];
     temp += information[3];
