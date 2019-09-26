@@ -6,10 +6,10 @@
 #define STD_Y 123
 
 //Global variables
-int x,y;
-int Speed,Steer,Limit;
-String information="";
-bool stringComplete;
+int x,y; //Values sent to the main board
+int Speed,Steer,Limit; //Values used to convert string -> int, recieved through UART
+String information=""; //String recieved through UART
+bool stringComplete; //Flag to check if the message is complete
 
 //Vector send through I2C
 uint8_t vector[6] = {218, 130, 0, 1, 0, 1};
