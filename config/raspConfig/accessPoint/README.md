@@ -1,10 +1,10 @@
-step 1 
-	sudo apt-get install dnsmasq hostapd
-step 2 
-	sudo nano /etc/dhcpcd.conf
+*Step 1
+    *sudo apt-get install dnsmasq hostapd
+*Step 2 
+	*sudo nano /etc/dhcpcd.conf
 		denyinterfaces wlan0
-step 3 
-	sudo nano /etc/network/interfaces
+*Step 3 
+	*sudo nano /etc/network/interfaces
 		allow-hotplug wlan0
 		iface wlan0 inet static
 		address 192.168.1.2 # ip desejado
@@ -12,24 +12,24 @@ step 3
 		network 192.168.1.1
 		broadcast 192.168.1.255
 		# wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-step 4 
-	sudo nano /etc/hostapd/hostapd.conf
-		interface=wlan0
-		driver=nl80211
-		ssid=Raspberry-AP # nome da rede
-		hw_mode=g
-		channel=6
-		macaddr_acl=0
-		auth_algs=1
-		ignore_broadcast_ssid=0
-		wpa=2
-		wpa_passphrase=raspberry # Network name
-		wpa_key_mgmt=WPA-PSK
-		rsn_pairwise=CCMP
-step 5 
+*Step 4 
+    *sudo nano /etc/hostapd/hostapd.conf
+        interface=wlan0
+        driver=nl80211
+        ssid=Raspberry-AP # nome da rede
+        hw_mode=g
+        channel=6
+        macaddr_acl=0
+        auth_algs=1
+        ignore_broadcast_ssid=0
+        wpa=2
+        wpa_passphrase=raspberry # Network name
+        wpa_key_mgmt=WPA-PSK
+        rsn_pairwise=CCMP
+*Step 5 
 	sudo nano /etc/default/hostapd
 		DAEMON_CONF="/etc/hostapd/hostapd.conf" # Edit line 'DAEMON_CONF'
-step 6 
+*Step 6 
 	sudo nano /etc/dnsmasq.conf
 		interface=wlan0
 		listen-address=192.168.1.2 # same ip from step 2
@@ -38,16 +38,16 @@ step 6
 		domain-needed
 		bogus-priv
 		dhcp-range=192.168.1.120,192.168.1.254,12h
-step 7 
+*Step 7 
 	sudo nano /etc/sysctl.conf
 		descomentar a linha 'net.ipv4.ip_forward=1'
-step 8 
+*Step 8 
 	sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 	sudo iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
 	sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
-step 9 
+*Step 9 
 	sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
-step 10 
+*Step 10 
 	sudo nano /etc/rc.local
 		iptables-restore < /etc/iptables.ipv4.nat
 		/usr/sbin/hostapd /etc/hostapd/hostapd.conf
