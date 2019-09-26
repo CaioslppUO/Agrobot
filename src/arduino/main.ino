@@ -93,7 +93,7 @@ void readUart() {
     if(!sinal) Limit *= -1;
     
     control(Speed,Steer,Limit);
-    readinfo();
+    readinfo(); //reset the flags for the next reading
   }
 }
 //Receive uart sinal, and save it
