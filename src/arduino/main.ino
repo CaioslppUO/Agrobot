@@ -96,6 +96,7 @@ void readUart() {
     readinfo(); //reset the flags for the next reading
   }
 }
+
 //Receive uart sinal, and save it
 void EventSerial() {
   while (Serial.available()) {
