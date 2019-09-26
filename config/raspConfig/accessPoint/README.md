@@ -1,7 +1,7 @@
 - Step 1
-#####    sudo apt-get install dnsmasq hostapd
+######    sudo apt-get install dnsmasq hostapd
 - Step 2 
-##### sudo nano /etc/dhcpcd.conf
+###### sudo nano /etc/dhcpcd.conf
 		denyinterfaces wlan0
 - Step 3 
 ######  		sudo nano /etc/network/interfaces
