@@ -22,7 +22,7 @@ void setup(){
   Wire.onRequest(requestEvent);  
 }
 
-//Function that checks if speed and steer are correct, transform them according to the limit, and set the Standard x and y
+//Function that checks if speed and steer are correct, transform them according to the limit, and set the global x and y
 void control(float _speed, float _steer, float _limit){
   float  coefficient_speed, coefficient_steer;  
   if( _speed < -10 || _speed > 10) {
