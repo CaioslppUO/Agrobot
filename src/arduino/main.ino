@@ -26,8 +26,8 @@ void setup(){
 void control(float _speed, float _steer, float _limit){
   float  coefficient_speed, coefficient_steer;  
   if( _speed < -10 || _speed > 10) {
-       coefficient_speed = (_speed/100) * abs(_limit);
-       coefficient_steer = (_steer/100) * abs(_limit);
+      coefficient_speed = (_speed/100) * abs(_limit);
+      coefficient_steer = (_steer/100) * abs(_limit);
       y = STD_Y +  coefficient_speed;
       if(y < 35) y = 35; if(y > 230) y = 230; 
       x = STD_X +  coefficient_steer;
