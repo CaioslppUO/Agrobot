@@ -28,17 +28,13 @@ void setup(){
 //Function that checks if speed and steer are correct, transform them according to the limit, and set the global x and y
 void control(float _speed, float _steer, float _limit){
   float  coefficient_speed, coefficient_steer;  
-  if( _speed < -10 || _speed > 10) {
-      coefficient_speed = (_speed/100) * abs(_limit);
-      coefficient_steer = (_steer/100) * abs(_limit);
-      y = STD_Y +  coefficient_speed;
-      if(y < 35) y = 35; if(y > 230) y = 230; 
-      x = STD_X +  coefficient_steer;
-      if(x < 35) x = 35; if(x > 230) x = 230;
-  }else{      
-      x = STD_X;
-      y = STD_Y;
-  }
+  coefficient_speed = (_speed/100) * abs(_limit);
+  coefficient_steer = (_steer/100) * abs(_limit);
+  y = STD_Y +  coefficient_speed;
+  if(y < 35) y = 35; if(y > 230) y = 230; 
+  x = STD_X +  coefficient_steer;
+  if(x < 35) x = 35; if(x > 230) x = 230;
+ 
 }
 
 void loop(){ 
