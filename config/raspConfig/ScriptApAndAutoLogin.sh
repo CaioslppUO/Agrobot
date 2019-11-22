@@ -43,7 +43,7 @@ greeter-show-manual-login=true
 greeter-hide-users=true
 autologin-user=seunomedeuser
 autologin-user-timeout=0"
-echo "Raspberry transformado em um Acces Point.
+echo "Raspberry turned into an Acces Point.
 Ip: 192.168.1.2
 NetWork name: $network_name
 Password name: $password_name"
