@@ -41,7 +41,7 @@ service ssh restart"
 echo >> /etc/lightdm/lightdm.conf "[SeatDefaults]
 greeter-show-manual-login=true
 greeter-hide-users=true
-autologin-user=seunomedeuser
+autologin-user= #USER
 autologin-user-timeout=0"
 echo "Raspberry turned into an Acces Point.
 Ip: 192.168.1.2
